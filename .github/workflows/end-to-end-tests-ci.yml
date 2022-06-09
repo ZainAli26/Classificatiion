@@ -2,7 +2,7 @@ name: End-To-End-Tests-CI
 
 on:
   workflow_run:
-    workflows: [API-CD, Firestore-Relay-CD, Integration-Merchant-Albertsons-CD, Integration-Payments-Stripe-CD]
+    workflows: [API-CD]
     types: [completed]
   pull_request:
     paths:
